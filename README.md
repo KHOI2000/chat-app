@@ -1,8 +1,4 @@
-# Ứng dụng nhắn tin real-time bằng ReactJS và Firebase 2021
-
-Youtube: [https://youtu.be/YZhNUU4_Pjw](https://youtu.be/YZhNUU4_Pjw)
-
-Live Demo: [https://chatapp.holetex.com](https://chatapp.holetex.com)
+# Ứng dụng nhắn tin real-time bằng ReactJS và Firebase 2023
 
 # Getting Started with Create React App
 
