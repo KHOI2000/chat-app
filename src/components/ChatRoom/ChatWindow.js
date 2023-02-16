@@ -77,6 +77,7 @@ export default function ChatWindow() {
     user: { uid, photoURL, displayName },
   } = useContext(AuthContext);
   const [inputValue, setInputValue] = useState('');
+  const [emoji, setEmoji] = useState(null);
   const [form] = Form.useForm();
   const inputRef = useRef(null);
   const messageListRef = useRef(null);
@@ -168,7 +169,15 @@ export default function ChatWindow() {
               ))}
             </MessageListStyled>
             <FormStyled form={form}>
+
               <Form.Item name='message'>
+                <div className="flex ml-md">
+                  <button
+                  @onClick= {() => setEmoji(!emoji)}
+                  >
+                    😀
+                  </button>
+                </div>
                 <Input
                   ref={inputRef}
                   onChange={handleInputChange}
